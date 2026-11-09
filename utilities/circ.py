@@ -296,7 +296,7 @@ def connect_background_syn_cords(circos,sector,kn_file, top_n,start_aa =1, chord
 
         # Check if the regions are within valid bounds
         if region1[1] < 0 or region1[2] > actual_length or region2[1] < 0 or region2[2] > actual_length:
-            print(f"Chord out of range: region1={region1}, region2={region2}")
+            # print(f"Chord out of range: region1={region1}, region2={region2}")
             continue
     
         # Use light gray color for background
